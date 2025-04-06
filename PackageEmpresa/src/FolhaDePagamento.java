@@ -3,7 +3,8 @@ import empresa.dados.*;
 public class FolhaDePagamento {
 	public static void main(String[] args) {
 		
-		TestePackage tp = new TestePackage();
+		Funcionario funcionario = new Funcionario("Arnaldo", 5000.00);
+		System.out.println(funcionario.obterInfo());
 	}
 
 }
