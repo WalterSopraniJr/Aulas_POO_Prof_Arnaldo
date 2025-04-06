@@ -10,7 +10,7 @@ public class Funcionario {
 		System.out.println("Nome: " + nome);
 		System.out.println("Salário: " + salario);
 	}
-	public Funcionario() {
+	protected Funcionario() {
 		Funcionario func = new Funcionario("Mario", 4000);
 	}
 }
