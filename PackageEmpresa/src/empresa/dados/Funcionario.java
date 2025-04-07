@@ -7,10 +7,14 @@ public class Funcionario {
 	public Funcionario(String nomeInit, double salarioInit) {
 		nome = nomeInit;
 		salario = salarioInit;
-		System.out.println("Nome: " + nome);
-		System.out.println("Salário: " + salario);
+		//System.out.println("Nome: " + nome);
+		//System.out.println("Salário: " + salario);
 	}
 	public String obterInfo() {
 		return "Nome: " + nome + ", Salário: " + salario;
+	}
+	
+	public void aumentarSalario(double aumento) {
+		salario += aumento;
 	}
 }
