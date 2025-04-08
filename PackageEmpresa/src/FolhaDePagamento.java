@@ -7,7 +7,9 @@ public class FolhaDePagamento {
 		System.out.println(funcionario.obterInfo());
 		
 		funcionario.alterarQualquerSalario(funcionario, 9000.00);
-		
+		System.out.println(funcionario.obterInfo());
+	
+		funcionario.salario = 7000.00;
 		System.out.println(funcionario.obterInfo());
 	}
 
