@@ -10,7 +10,7 @@ public class TestStatic {
 	
 	public static void main(String[] args) {
 		
-		TestStatic.exibirValor(10);
+		exibirValor(10);
 		
 	}
 
