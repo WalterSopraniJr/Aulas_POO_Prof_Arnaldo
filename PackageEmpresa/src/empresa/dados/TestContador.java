@@ -1,5 +1,7 @@
 package empresa.dados;
 
+//Classe adicional para explicar sobre MEMBROS ESTÁTICOS
+
 public class TestContador {
 
 		
