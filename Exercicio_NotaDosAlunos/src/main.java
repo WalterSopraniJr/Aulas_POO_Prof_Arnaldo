@@ -14,10 +14,9 @@ public class main {
 		
 		System.out.println("Nota dos alunos: ");
 		
-		for(int i = 0; i < notas.length; i++){
-			System.out.print(notas[i] + " - ");
-			
-		}
+		for (double nota : notas) {
+            System.out.print(nota + " ");
+        }
 	}
 
 }
