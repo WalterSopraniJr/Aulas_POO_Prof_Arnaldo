@@ -5,12 +5,10 @@ public class PreenchendoEImprimindoArrayPar {
 		int tamanho = 6;
 		int[] inteiros = new int[tamanho];
 		
-		inteiros[0] = 0;
-		inteiros[1] = 2;
-		inteiros[2] = 4;
-		inteiros[3] = 6;
-		inteiros[4] = 8;
-		inteiros[5] = 10;
+		for (int i = 0; i < tamanho; i++) {
+			 inteiros[i] = 2 * (i + 1);
+		}
+
 		
 		for(int i : inteiros) {
 			
