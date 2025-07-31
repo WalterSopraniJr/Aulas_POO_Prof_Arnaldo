@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="Arrays/src"/>
+	<classpathentry kind="src" path="Carro/src"/>
+	<classpathentry kind="src" path="EncapsulamentoProduto/src"/>
+	<classpathentry kind="src" path="Exercicio_NotaDosAlunos/src"/>
+	<classpathentry kind="src" path="ExercicioComplementar-Construtor/src"/>
+	<classpathentry kind="src" path="ExercicioComplementar-ModificadorDeAcesso/src"/>
+	<classpathentry kind="src" path="ExercicioComplementar-PassagemValorEReferencia/src"/>
+	<classpathentry kind="src" path="ExercicioSalaDeAula/src"/>
+	<classpathentry kind="src" path="PackageEmpresa/src"/>
+	<classpathentry kind="output" path="Arrays/bin"/>
+</classpath>
