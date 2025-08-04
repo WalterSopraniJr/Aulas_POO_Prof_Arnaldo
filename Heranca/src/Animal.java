@@ -1,6 +1,6 @@
 
 public class Animal { //Super Classe
-	public void fazerSom() {
+	public void fazerSom(int i, String s) {
 		System.out.println("O animal faz um som");
 	}
 	
@@ -8,7 +8,7 @@ public class Animal { //Super Classe
 }
 
 class Cachorro extends Animal { //subclasse
-	public void fazerSom() {
+	public void fazerSom(int i, String s) {
 		System.out.println("O cachorro late");		
 	}
 }
