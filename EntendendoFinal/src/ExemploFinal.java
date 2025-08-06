@@ -2,7 +2,7 @@
 class MetodoFinal {
 	
 	//Definição de constante para o uso do final
-	final int CODIGO_FIXO = 10;
+	final int CODIGO_FIXO = 10; //constantes são declaradas com letras maiúsculas e separada com sublinhado
 	
 	//Método final
 	final void meuMetodo() {
