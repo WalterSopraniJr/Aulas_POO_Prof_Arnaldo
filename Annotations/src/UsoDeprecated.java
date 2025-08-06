@@ -12,6 +12,8 @@ class InformaRegras{
 }
 
 public class UsoDeprecated {
+	
+	@SuppressWarnings("deprecation") // é utilizado para suprimir avisos específicos do compilador
 	public static void main(String[] args) {
 		
 		InformaRegras regras = new InformaRegras();
