@@ -9,22 +9,32 @@ interface PedidoRestaurante{
 
 class Pedido implements PedidoRestaurante{
 	
-	private List<String> item = new ArrayList<>();
+	private class ItemPedido{
+		String nome;
+		double preco;
+		
+		ItemPedido(String nome, double preco){
+			this.nome = nome;
+			this.preco = preco;
+		}
+	}
+	
+	private List<ItemPedido> item = new ArrayList<>();
 	private double valorTotal = 0;
 	
 	@Override
 	public void adicionarItem(String item, double preco) {
-		this.item.add(item);
+		this.item.add(new ItemPedido(item, preco));
 		this.valorTotal += preco;
 	}
 	
 	public void calcularTotal() {
 		System.out.println("O pedido foi: ");
-		for(String i: item) {
-			System.out.println("- " + i);
+		for(ItemPedido i: item) {
+			System.out.printf("- %s (R$ %.2f)%n", i.nome, i.preco);
 		}
 		
-		System.out.println("O valor total do pedido é de R$" + valorTotal);
+		System.out.printf("Valor total: R$ %.2f%n", valorTotal);
 	}
 }
 public class ChamaPedidoRestaurante {
